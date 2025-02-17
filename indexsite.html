@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Raiz - Receitas Nordestinas</title>
+    <link rel="stylesheet" href="stylesite.css">
+</head>
+<body>
+    <header>
+        <img src="logosaborraiz.png" alt="Logo do Sabor Raiz" class="logo">
+        <h1>Seja Bem-Vindo(a) ao Sabor Raiz!</h1>
+        <h2>Os melhores sabores do Nordeste na sua cozinha!</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="seçõesrece.html">Seções de Receitas</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <img src="banner.jpg" alt="Banner de comida nordestina">
+    </section>
+
+    <!-- Barra de Pesquisa -->
+    <div class="pesquisa-container">
+        <input type="text" id="search-bar" placeholder="Busque uma receita...">
+        <button onclick="searchRecipe()">🔍</button>
+    </div>
+
+    <main>
+        <!-- Seção de Destaques -->
+        <section class="destaques">
+            <h2>Receitas Populares</h2>
+            <div class="receitas-container">
+                <div class="receita">
+                    <h3><a href="baiao-de-dois.html">Baião de Dois</a></h3>
+                    <img src="baiao-de-dois.jpg" alt="Baião de Dois">
+                </div>
+                <div class="receita">
+                    <h3><a href="acaraje.html">Acarajé</a></h3>
+                    <img src="acaraje.jpg" alt="Acarajé">
+                </div>
+                <div class="receita">
+                    <h3><a href="cuscuz.html">Cuscuz Nordestino</a></h3>
+                    <img src="cuscuz.jpg" alt="Cuscuz Nordestino">
+                </div>
+            </div>
+        </section>
+
+        <!-- Receitas do Momento -->
+        <section class="momento">
+            <h2>Receitas do Momento</h2>
+            <p>Descubra pratos sazonais e receitas especiais para cada época do ano!</p>
+        </section>
+
+        <!-- Seção Cultura Nordestina -->
+        <section class="cultura">
+            <h2>A Cultura da Culinária Nordestina</h2>
+            <p>Os sabores do Nordeste são marcados por ingredientes típicos como carne de sol, tapioca, cuscuz e leite de coco. Cada prato conta um pouco da história e tradição do povo nordestino.</p>
+        </section>
+
+        <!-- Depoimentos -->
+        <section class="depoimentos">
+            <h2>O que nossos visitantes estão dizendo?</h2>
+            <blockquote>
+                <p>"Fiz o Baião de Dois seguindo a receita do site e ficou perfeito!" - <strong>Maria Santos</strong></p>
+                <p>"Amo as receitas e a facilidade de encontrar pratos típicos aqui!" - <strong>João Oliveira</strong></p>
+            </blockquote>
+        </section>
+
+        <!-- Formulário de Newsletter -->
+        <section class="newsletter">
+            <h2>Receba nossas novidades!</h2>
+            <p>Cadastre seu e-mail para receber receitas exclusivas.</p>
+            <form>
+                <input type="email" placeholder="Seu e-mail" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sabor Raiz - Receitas Nordestinas</p>
+        <p>Siga-nos nas redes sociais:</p>
+        <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">WhatsApp</a>
+    </footer>
+
+    <a href="#" id="topo">↑ Topo</a>
+</body>
+</html>
